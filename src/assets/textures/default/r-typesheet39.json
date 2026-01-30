@@ -1,0 +1,26 @@
+{
+  "texture": "r-typesheet39.gif",
+  "sprites": {
+    "monster": {
+      "frames": [
+        { "x": 0, "y": 2, "width": 134, "height": 64 }
+      ],
+      "animate": false,
+      "frameDuration": 0.0,
+      "canRotate": false,
+      "defaultDirection": "left"
+    },
+    "projectile": {
+      "frames": [
+        { "x": 0, "y": 73, "width": 50, "height": 50 },
+        { "x": 33, "y": 73, "width": 50, "height": 50 },
+        { "x": 66, "y": 73, "width": 50, "height": 50 },
+        { "x": 99, "y": 73, "width": 50, "height": 50 }
+      ],
+      "animate": true,
+      "frameDuration": 0.15,
+      "canRotate": false,
+      "defaultDirection": "left"
+    }
+  }
+}

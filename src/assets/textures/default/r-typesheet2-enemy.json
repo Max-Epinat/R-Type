@@ -1,0 +1,49 @@
+{
+  "texture": "r-typesheet2.gif",
+  "sprites": {
+    "enemy_bullet_type1": {
+      "frames": [
+        { "x": 305, "y": 12, "width": 29, "height": 10 },
+        { "x": 337, "y": 12, "width": 29, "height": 10 },
+        { "x": 369, "y": 12, "width": 29, "height": 10 },
+        { "x": 337, "y": 12, "width": 29, "height": 10 },
+        { "x": 305, "y": 12, "width": 29, "height": 10 }
+      ],
+      "animate": true,
+      "frameDuration": 0.06
+    },
+    "enemy_bullet_type2": {
+      "frames": [
+        { "x": 100, "y": 118, "width": 16, "height": 14 },
+        { "x": 117, "y": 118, "width": 16, "height": 14 },
+        { "x": 134, "y": 118, "width": 16, "height": 14 },
+        { "x": 151, "y": 118, "width": 16, "height": 14 }
+      ],
+      "animate": true,
+      "frameDuration": 0.06
+    },
+    "enemy_bullet_type3": {
+      "frames": [
+        { "x": 445, "y": 312, "width": 32, "height": 6 },
+        { "x": 479, "y": 312, "width": 32, "height": 6 }
+      ],
+      "animate": true,
+      "frameDuration": 0.08
+    },
+    "enemy_bullet_type4": {
+      "frames": [
+        { "x": 318, "y": 94, "width": 16, "height": 10 },
+        { "x": 301, "y": 94, "width": 16, "height": 10 }
+      ],
+      "animate": true,
+      "frameDuration": 0.08
+    },
+    "enemy_bullet_type5": {
+      "frames": [
+        { "x": 301, "y": 58, "width": 16, "height": 6 }
+      ],
+      "animate": false,
+      "frameDuration": 0.0
+    }
+  }
+}

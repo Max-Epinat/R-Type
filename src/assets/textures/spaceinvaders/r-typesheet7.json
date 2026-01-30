@@ -1,0 +1,15 @@
+{
+  "texture": "spaceinvader.png",
+  "sprites": {
+    "monster": {
+      "frames": [
+        { "x": 374, "y": 687, "width": 96, "height": 66 },
+        { "x": 488, "y": 687, "width": 96, "height": 66 }
+      ],
+      "animate": true,
+      "frameDuration": 0.5,
+      "canRotate": false,
+      "defaultDirection": "down"
+    }
+  }
+}

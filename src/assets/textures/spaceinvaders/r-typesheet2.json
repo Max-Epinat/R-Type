@@ -1,0 +1,14 @@
+{
+  "texture": "spaceinvader.png",
+  "sprites": {
+    "bullet": {
+      "frames": [
+        { "x": 476, "y": 893, "width": 25, "height": 49 }
+      ],
+      "animate": false,
+      "frameDuration": 0.06,
+      "canRotate": false,
+      "defaultDirection": "up"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "texture": "r-typesheet1.gif",
+  "sprites": {
+    "player_shield": {
+      "frames": [
+        { "x": 209, "y": 191, "width": 56, "height": 47 }
+      ],
+      "animate": false,
+      "frameDuration": 0.05,
+      "canRotate": false,
+      "defaultDirection": "right"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "texture": "spaceinvader.png",
+  "sprites": {
+    "enemy_bullet_type1": {
+      "frames": [
+        { "x": 476, "y": 893, "width": 25, "height": 49 }
+      ],
+      "animate": false,
+      "frameDuration": 0.06,
+      "canRotate": false,
+      "defaultDirection": "up"
+    },
+    "enemy_bullet_type2": {
+      "frames": [
+        { "x": 381, "y": 1904, "width": 12, "height": 24 },
+        { "x": 381, "y": 1946, "width": 12, "height": 24 }
+      ],
+      "animate": true,
+      "frameDuration": 0.1
+    },
+    "enemy_bullet_type3": {
+      "frames": [
+        { "x": 476, "y": 893, "width": 25, "height": 49 }
+      ],
+      "animate": false,
+      "frameDuration": 0.06,
+      "canRotate": false,
+      "defaultDirection": "up"
+    },
+    "enemy_bullet_type4": {
+      "frames": [
+        { "x": 381, "y": 1904, "width": 12, "height": 24 },
+        { "x": 381, "y": 1946, "width": 12, "height": 24 }
+      ],
+      "animate": true,
+      "frameDuration": 0.1
+    },
+    "enemy_bullet_type5": {
+      "frames": [
+        { "x": 476, "y": 893, "width": 25, "height": 49 }
+      ],
+      "animate": false,
+      "frameDuration": 0.06,
+      "canRotate": false,
+      "defaultDirection": "up"
+    }
+  }
+}

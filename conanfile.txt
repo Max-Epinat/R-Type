@@ -1,0 +1,12 @@
+[requires]
+asio/1.28.0
+sfml/2.6.1
+nlohmann_json/3.11.3
+dylib/3.0.1
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[layout]
+cmake_layout

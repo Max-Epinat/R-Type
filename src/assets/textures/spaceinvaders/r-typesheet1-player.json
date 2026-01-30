@@ -1,0 +1,12 @@
+{
+  "texture": "spaceinvader.png",
+  "sprites": {
+    "player_ship": {
+      "frames": [
+        { "x": 355, "y": 1163, "width": 104, "height": 64 }
+      ],
+      "animate": false,
+      "frameDuration": 0.0
+    }
+  }
+}

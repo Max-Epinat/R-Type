@@ -1,0 +1,63 @@
+{
+  "version": 6,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 20,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "conan-default",
+      "displayName": "Conan Default (Release)",
+      "description": "Default preset using Conan-generated toolchain (Release)",
+      "generator": "Ninja",
+      "binaryDir": "build/Release",
+      "installDir": "build/Release",
+      "toolchainFile": "build/Release/generators/conan_toolchain.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      }
+    },
+    {
+      "name": "conan-debug",
+      "displayName": "Conan Debug",
+      "description": "Configure using Conan-generated toolchain (Debug)",
+      "generator": "Ninja",
+      "binaryDir": "build/Debug",
+      "installDir": "build/Debug",
+      "toolchainFile": "build/Debug/generators/conan_toolchain.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      }
+    },
+    {
+      "name": "conan-release",
+      "displayName": "Conan Release",
+      "description": "Configure using Conan-generated toolchain (Release)",
+      "generator": "Ninja",
+      "binaryDir": "build/Release",
+      "installDir": "build/Release",
+      "toolchainFile": "build/Release/generators/conan_toolchain.cmake",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "conan-default",
+      "configurePreset": "conan-default"
+    },
+    {
+      "name": "conan-debug",
+      "configurePreset": "conan-debug"
+    },
+    {
+      "name": "conan-release",
+      "configurePreset": "conan-release"
+    }
+  ]
+}

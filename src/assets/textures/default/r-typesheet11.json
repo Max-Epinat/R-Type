@@ -1,0 +1,16 @@
+{
+  "texture": "r-typesheet11.gif",
+  "sprites": {
+    "monster": {
+      "frames": [
+        { "x": 3, "y": 4, "width": 32, "height": 24 },
+        { "x": 36, "y": 4, "width": 32, "height": 24 },
+        { "x": 69, "y": 4, "width": 32, "height": 24 }
+      ],
+      "animate": true,
+      "frameDuration": 0.1,
+      "canRotate": true,
+      "defaultDirection": "left"
+    }
+  }
+}

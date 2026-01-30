@@ -1,0 +1,17 @@
+{
+  "texture": "r-typesheet2.gif",
+  "sprites": {
+    "bullet": {
+      "frames": [
+        { "x": 209, "y": 12, "width": 22, "height": 10 },
+        { "x": 237, "y": 13, "width": 26, "height": 8 },
+        { "x": 283, "y": 14, "width": 12, "height": 6 },
+        { "x": 305, "y": 14, "width": 12, "height": 6 }
+      ],
+      "animate": true,
+      "frameDuration": 0.06,
+      "canRotate": false,
+      "defaultDirection": "right"
+    }
+  }
+}

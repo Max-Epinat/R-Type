@@ -1,0 +1,19 @@
+{
+  "texture": "r-typesheet7.gif",
+  "sprites": {
+    "monster": {
+      "frames": [
+        { "x": 1, "y": 4, "width": 32, "height": 29 },
+        { "x": 34, "y": 4, "width": 32, "height": 29 },
+        { "x": 67, "y": 4, "width": 32, "height": 29 },
+        { "x": 1, "y": 36, "width": 32, "height": 29 },
+        { "x": 34, "y": 36, "width": 32, "height": 29 },
+        { "x": 67, "y": 36, "width": 32, "height": 29 }
+      ],
+      "animate": true,
+      "frameDuration": 0.12,
+      "canRotate": true,
+      "defaultDirection": "left"
+    }
+  }
+}

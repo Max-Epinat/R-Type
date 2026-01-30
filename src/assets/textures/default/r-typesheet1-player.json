@@ -1,0 +1,23 @@
+{
+  "texture": "r-typesheet1.gif",
+  "sprites": {
+    "player_ship": {
+      "frames": [
+        { "x": 101, "y": 3, "width": 32, "height": 14 },
+        { "x": 134, "y": 3, "width": 32, "height": 13 },
+        { "x": 167, "y": 3, "width": 32, "height": 12 },
+        { "x": 200, "y": 3, "width": 32, "height": 13 },
+        { "x": 233, "y": 2, "width": 32, "height": 14 },
+        { "x": 267, "y": 2, "width": 32, "height": 14 },
+        { "x": 300, "y": 3, "width": 32, "height": 13 },
+        { "x": 333, "y": 3, "width": 32, "height": 12 },
+        { "x": 366, "y": 3, "width": 32, "height": 13 },
+        { "x": 399, "y": 3, "width": 32, "height": 14 }
+      ],
+      "animate": false,
+      "frameDuration": 0.0,
+      "canRotate": true,
+      "defaultDirection": "right"
+    }
+  }
+}

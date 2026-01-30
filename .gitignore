@@ -1,0 +1,13 @@
+# Build outputs
+/build/
+/bin
+/lib
+
+# CMake local presets
+CMakeUserPresets.json
+
+# IDE artifacts
+/.cache/
+compile_commands.json
+cmake-release/
+.vscode

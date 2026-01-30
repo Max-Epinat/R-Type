@@ -1,0 +1,17 @@
+{
+  "texture": "r-typesheet37.gif",
+  "sprites": {
+    "shield": {
+      "frames": [
+        { "x": 166, "y": 256, "width": 32, "height": 64 },
+        { "x": 198, "y": 256, "width": 32, "height": 64 },
+        { "x": 230, "y": 256, "width": 32, "height": 64 },
+        { "x": 262, "y": 256, "width": 32, "height": 64 }
+      ],
+      "animate": true,
+      "frameDuration": 0.05,
+      "canRotate": true,
+      "defaultDirection": "left"
+    }
+  }
+}

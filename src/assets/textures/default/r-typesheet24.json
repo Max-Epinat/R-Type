@@ -1,0 +1,14 @@
+{
+  "texture": "r-typesheet24.gif",
+  "sprites": {
+    "powerup": {
+      "frames": [
+        { "x": 9, "y": 9, "width": 48, "height": 48 }
+      ],
+      "animate": false,
+      "frameDuration": 0.0,
+      "canRotate": true,
+      "defaultDirection": "right"
+    }
+  }
+}
