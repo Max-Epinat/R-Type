@@ -1,6 +1,7 @@
 # R-Type — Multiplayer Network Game (C++)
 
 Authoritative remake of the 1987 classic built with modern C++20, a lightweight ECS engine, and a UDP-first protocol. The workspace provides both a headless server simulation and an SFML client renderer that connect through a strict binary protocol.
+![Gameplay](docs/images/gameplay.png)
 
 ## Highlights
 - Client/server split with an authoritative simulation loop and thin presentation client.
@@ -34,12 +35,32 @@ Authoritative remake of the 1987 classic built with modern C++20, a lightweight 
 
 ## Build & Run
 
-### Linux / macOS
+### Linux
 ```bash
 git clone <repo-url>
 cd rtype
-cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
-cmake --build build -j
+
+# Option 1: Use automated build script (recommended)
+./scripts/bootstrap.sh
+
+# Option 2: Manual build (advanced users)
+
+# Detect profile
+
+conan profile detect --force
+
+# Install dependencies
+
+conan install . --output-folder=build/Release --build=missing -s build_type=Release -s compiler.cppstd=20
+
+# Configure using Conan presets
+
+cmake --preset conan-release
+
+# Build
+
+cmake --build build/Release
+
 ```
 
 ### Windows (Visual Studio)
